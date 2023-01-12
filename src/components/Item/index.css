@@ -1,0 +1,51 @@
+.list{
+    display:flex;
+    background-color: bisque;
+    list-style-type:none;
+    padding:6px 6px 6px 5px;
+    border-radius:20px;
+    justify-content: flex-start;
+    margin-bottom:10px;
+    
+
+}
+.li{
+    display:inline-block;
+}
+.head{
+    border-radius:100%; 
+    width:60px;
+    height:50px;
+    display:flex;
+    justify-content: center; 
+    align-items:center;
+   
+    background-color: aqua;
+    color:red;
+    margin:3px 9px 3px 5px;
+}
+.para{
+    display: inline;
+    color:#0081C9;
+
+}
+.value{
+    font-weight:bold;
+}
+.but1{
+    background-color: azure;
+    align-self:center;
+    height:30px; 
+    width:30px; 
+    border-radius:25px;
+    padding-right:2px;
+    margin-right:6px;
+}
+#icon{
+    height:18px;
+    width:18px;
+   
+}
+.but1:hover{
+    background-color: #39B5E0;
+}
